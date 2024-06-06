@@ -65,3 +65,4 @@ function EditPrompt() {
         />
     )
 }
+export default EditPrompt;
