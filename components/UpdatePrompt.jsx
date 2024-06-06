@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from "next/navigation";
 
@@ -63,3 +65,5 @@ const EditPrompt = () => {
         />
     )
 }
+
+export default EditPrompt;
